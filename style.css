@@ -25,3 +25,18 @@ body {
     padding: 10px;
   }
   
+  .buttons button {
+    width: 23%;
+    height: 50px;
+    margin: 1%;
+    font-size: 18px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .buttons button:hover {
+    background: #0056b3;
+  }
