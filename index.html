@@ -8,11 +8,11 @@
 </head>
 <body>
   <div class="calculator">
-    <input type="text" id="result" disabled>
+    <input type="text" id="result" readonly />
     <div class="buttons">
       <button onclick="clearScreen()">C</button>
       <button onclick="appendValue('/')">/</button>
-      <button onclick="appendValue('*')"></button>
+      <button onclick="appendValue('*')">*</button>
       <button onclick="appendValue('-')">-</button>
       <button onclick="appendValue('7')">7</button>
       <button onclick="appendValue('8')">8</button>
@@ -31,3 +31,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+

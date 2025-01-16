@@ -59,7 +59,7 @@ body {
 /* Button active effect */
 .buttons button:active {
   background: #003f7f;
-  transform: scale(0.95); /* Slightly shrink button when clicked */
+  transform: scale(0.95);
 }
 
 /* Special button (e.g., clear) styling for differentiation */
